@@ -1,0 +1,114 @@
+*{
+    
+    box-sizing: border-box;
+
+}
+
+
+body{
+
+    margin: 0px;
+    font-family: roboto , sans-serif;
+    
+}
+
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.5em;}
+h6{font-size: 1em;}
+p{font-size: 1em;}
+
+button{
+
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,5);
+    color: aliceblue;
+    background-color: deepskyblue;
+
+}
+
+button:hover{
+
+    background-color: dodgerblue;
+
+}
+
+
+.container{
+
+    max-width: 1400px;    
+    margin: auto;
+
+
+}
+
+
+header{
+
+    background-color: rgb(7, 94, 182);
+    color: aliceblue;
+    
+
+}
+
+
+header  .logo{
+
+    margin: 0%;
+    padding: 25px 30px;
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+
+
+header  .container{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+
+header  nav{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+
+header  a{
+
+    padding: 3px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+
+
+#hero{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: 
+    url("img/MVD\ o\ Background-1.png");
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+}
